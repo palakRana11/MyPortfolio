@@ -11,7 +11,7 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <p className="text-[#64ffda] mb-5">Hi, my name is</p>
+          <p className="text-[#C770F0] mb-5">Hi, my name is</p>
           <h1 className="text-5xl md:text-7xl font-bold text-[#ccd6f6] mb-4">
             Palak Rana
           </h1>
@@ -26,13 +26,13 @@ const Home = () => {
           <div className="flex gap-4">
             <Link
               to="/projects"
-              className="px-6 py-3 border-2 border-[#64ffda] text-[#64ffda] rounded hover:bg-[#64ffda]/10 transition-colors"
+              className="px-6 py-3 border-2 border-[#C770F0] text-[#C770F0] rounded hover:bg-[#C770F0]/10 transition-colors"
             >
               View My Work
             </Link>
             <Link
               to="/contact"
-              className="px-6 py-3 bg-[#64ffda] text-[#0a192f] rounded hover:bg-[#64ffda]/90 transition-colors"
+              className="px-6 py-3 bg-[#C770F0] text-[#0a192f] rounded hover:bg-[#C770F0]/90 transition-colors"
             >
               Get In Touch
             </Link>

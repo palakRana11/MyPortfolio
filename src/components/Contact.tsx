@@ -55,12 +55,12 @@ const Contact = () => {
                 href={info.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="project-card p-6 rounded-lg flex items-center gap-4 hover:border-[#64ffda] transition-colors"
+                className="project-card p-6 rounded-lg flex items-center gap-4 hover:border-[#C770F0] transition-colors"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
-                <div className="text-[#64ffda]">
+                <div className="text-[#C770F0]">
                   {info.icon}
                 </div>
                 <div>
