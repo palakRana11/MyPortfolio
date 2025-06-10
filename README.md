@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Palak Rana - Portfolio
 
 A modern, responsive portfolio website built with React, TypeScript, and TailwindCSS.
@@ -71,3 +72,7 @@ npm run deploy
 ## License
 
 This project is open source and available under the MIT License.
+=======
+# MyPortFolio
+This is My Portfolio 
+>>>>>>> 642fee1018a0b769627cb479aa1f394e28a619fd
