@@ -1,46 +1,73 @@
-# Getting Started with Create React App
+# Palak Rana - Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with React, TypeScript, and TailwindCSS.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- 🎨 Modern and clean design
+- 📱 Fully responsive
+- ⚡ Fast and optimized
+- 🎭 Smooth animations with Framer Motion
+- 🎯 Easy to customize
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React.js
+- TypeScript
+- TailwindCSS
+- Material-UI Icons
+- Framer Motion
+- React Router
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+1. Clone the repository:
+```bash
+git clone https://github.com/palakRana11/portfolio.git
+cd portfolio
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies:
+```bash
+npm install
+```
 
-### `npm run build`
+3. Start the development server:
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The portfolio is configured to deploy to GitHub Pages. To deploy:
 
-### `npm run eject`
+1. Update the `homepage` field in `package.json` with your GitHub Pages URL.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Deploy to GitHub Pages:
+```bash
+npm run deploy
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Customization
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Update the content in the components:
+   - `src/components/Home.tsx`
+   - `src/components/About.tsx`
+   - `src/components/Projects.tsx`
+   - `src/components/Contact.tsx`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+2. Modify the styling in:
+   - `src/index.css`
+   - Individual component files using TailwindCSS classes
 
-## Learn More
+## Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Email: palakranag99@gmail.com
+- LinkedIn: [Palak Rana](https://www.linkedin.com/in/palak-rana-6a2172334)
+- GitHub: [@palakRana11](https://github.com/palakRana11)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
+
+This project is open source and available under the MIT License.
